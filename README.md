@@ -51,11 +51,11 @@ The easiest way to use Jupper is to create new class in the test package of your
 - Run the `main`
 - Calling `profile()` will start JavaFX and show the Jupper window.
 
-![test window](img/jupper-window.png?raw=true “Test window“)
+[test window](img/jupper-window.png?raw=true “Test window“)
 
 - Copy the **qualified** name of the class you want to profile in the “Test Class” field and the name of the method in the “Test Method” field. Example:
 
-![filled out](img/jupper-filled.png?raw=true “Fields filled out“)
+[filled out](img/jupper-filled.png?raw=true “Fields filled out“)
 
 - Open JVisualVM. It should be in the `bin` folder of your JDK folder.
 - Hook up JVisualVM to the process of the `Profiler` class’ `main`, set up your sampling or profiling preferences and start sampling/profiling.
