@@ -1,0 +1,13 @@
+.jupper-button {
+	-fx-background-color: #ffffff;
+	-fx-border-width: 0.5px;
+	-fx-border-color: #000000;
+}
+
+.jupper-button:clicked {
+	-fx-background-color: #c1c1c1;
+}
+
+.jupper-button:hover {
+	-fx-background-color: #e1e1e1;
+}

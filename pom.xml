@@ -3,14 +3,14 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.vibridi</groupId>
 	<artifactId>jupper</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
 	<name>jupper</name>
 
 	<properties>
 		<junit.version>4.12</junit.version>
-		<fxmlutils.version>1.1.0-SNAPSHOT</fxmlutils.version>
+		<fxu.version>2.1.14-SNAPSHOT</fxu.version>
 	</properties>
 
 	<dependencies>
@@ -23,8 +23,8 @@
 
 		<dependency>
 			<groupId>com.vibridi</groupId>
-			<artifactId>fxmlutils</artifactId>
-			<version>${fxmlutils.version}</version>
+			<artifactId>fxu</artifactId>
+			<version>${fxu.version}</version>
 		</dependency>
 	</dependencies>
 
