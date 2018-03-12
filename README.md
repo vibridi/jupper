@@ -7,7 +7,7 @@ Jupper is a minimal tool that makes profiling specific behaviors of your applica
 
 The best free tool for profiling Java applications is probably JVisualVM, which is the GUI profiler that ships with regular distributions of the Java Development Kit (JDK).
 JVisualVM works by hooking to running Java processes. If you are developing a library or some other Java application that doesn’t have a main loop, it’s not very easy to keep the process around long enough to let VisualVM to hook into it. 
-There are a few tricks that you can use, as you can see in [this Stack Overflow question] (https://stackoverflow.com/questions/11826680/profile-junit-in-eclipse-indigo-using-visualvm), but these are clunky and require messing around with breakpoints. 
+There are a few tricks that you can use, as you can see in [this Stack Overflow question](https://stackoverflow.com/questions/11826680/profile-junit-in-eclipse-indigo-using-visualvm), but these are clunky and require messing around with breakpoints. 
 
 Jupper is just a JavaFX window that calls a method in your test package. The advantage is that the window keeps the process alive until you close it. This way you have all the time to set up JVisualVM and painlessly profile your application code.
 
@@ -39,7 +39,7 @@ Java 8 or above.
 
 The easiest way to use Jupper is to create new class in the test package of your project that launches the test window. Assuming that yours is a Maven project, you can do the following:
 
-- Create a `Profiler` class in your test package, e.g. `com.vibridi.myapp.test.Profiler
+- Create a `Profiler` class in your test package, e.g. `com.vibridi.myapp.test.Profiler`
 - Add a `main` method to the `Profiler` class. It’s preferable to use a `main` instead of, let’s say, a JUnit `@Test` so that Maven will not launch it during the build phase.
 
 ```
